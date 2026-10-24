@@ -1,14 +1,16 @@
 :root {
   color-scheme: light;
-  --ink: #28322c;
-  --muted: #687067;
-  --paper: #f4f1e9;
-  --paper-deep: #e9e5da;
-  --white: #fffefa;
-  --green: #34483b;
-  --green-deep: #24352b;
-  --rust: #a75d43;
-  --line: rgba(40, 50, 44, 0.18);
+  --ink: #2b342d;
+  --muted: #646b61;
+  --paper: #f7f1e5;
+  --paper-deep: #e9ddc8;
+  --white: #fffcf5;
+  --green: #3f614a;
+  --green-deep: #294735;
+  --rust: #b45f3d;
+  --accent-light: #f0b28d;
+  --accent-cream: #f0dfc0;
+  --line: rgba(43, 52, 45, 0.18);
   --serif: Georgia, "Times New Roman", serif;
   --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -181,7 +183,7 @@ h2 {
 }
 
 .hero-shade {
-  background: linear-gradient(90deg, rgba(24, 35, 28, 0.78), rgba(24, 35, 28, 0.32) 58%, rgba(24, 35, 28, 0.08));
+  background: linear-gradient(90deg, rgba(22, 40, 27, 0.78), rgba(22, 40, 27, 0.32) 58%, rgba(22, 40, 27, 0.08));
 }
 
 .hero-content {
@@ -407,7 +409,7 @@ h2 {
 }
 
 .hero .eyebrow {
-  color: #e5b39a;
+  color: var(--accent-light);
 }
 
 .hero h1 {
@@ -500,7 +502,7 @@ h2 {
 }
 
 .section-apartment {
-  background: #e8ebe4;
+  background: #e2e9db;
 }
 
 .section-heading {
@@ -625,11 +627,11 @@ h2 {
 
 .section-wine .eyebrow,
 .section-wine .status {
-  color: #e5b39a;
+  color: var(--accent-light);
 }
 
 .section-wine .lead {
-  color: #e5d9c5;
+  color: var(--accent-cream);
 }
 
 .section-wine .wine-copy > p:not(.eyebrow, .lead, .status),
@@ -642,7 +644,7 @@ h2 {
 }
 
 .section-wine .text-link:hover {
-  color: #e5b39a;
+  color: var(--accent-light);
 }
 
 .section-wine .wine-image figcaption {
@@ -650,11 +652,11 @@ h2 {
 }
 
 .section-wine .cafe-note .eyebrow {
-  color: #e5b39a;
+  color: var(--accent-light);
 }
 
 .section-wine .status-dot {
-  background: #e5b39a;
+  background: var(--accent-light);
 }
 
 .wine-layout {
@@ -743,15 +745,15 @@ h2 {
 }
 
 .section-tasting .eyebrow {
-  color: #e5b39a;
+  color: var(--accent-light);
 }
 
 .section-tasting .section-number {
-  color: #e5b39a;
+  color: var(--accent-light);
 }
 
 .section-tasting .lead {
-  color: #e5d9c5;
+  color: var(--accent-cream);
 }
 
 .section-tasting p:not(.eyebrow, .lead) {
@@ -906,12 +908,12 @@ h2 {
 }
 
 .contact-section .eyebrow {
-  color: #e5b39a;
+  color: var(--accent-light);
 }
 
 .contact-section .lead {
   margin-bottom: 0.4rem;
-  color: #e5d9c5;
+  color: var(--accent-cream);
 }
 
 .contact-section address {
@@ -946,7 +948,7 @@ h2 {
 
 .contact-details .map-link {
   margin-top: 0.5rem;
-  color: #e5b39a;
+  color: var(--accent-light);
   font-family: var(--sans);
   font-size: 0.78rem;
   font-weight: 700;
@@ -956,7 +958,7 @@ h2 {
 
 .site-footer {
   padding-block: 2.5rem;
-  background: #1b2921;
+  background: #20392b;
   color: rgba(255, 254, 250, 0.72);
   font-size: 0.78rem;
 }
@@ -1081,7 +1083,7 @@ h2 {
   }
 
   .hero-shade {
-    background: linear-gradient(90deg, rgba(24, 35, 28, 0.76), rgba(24, 35, 28, 0.23));
+    background: linear-gradient(90deg, rgba(22, 40, 27, 0.76), rgba(22, 40, 27, 0.23));
   }
 
   .hero h1 {
